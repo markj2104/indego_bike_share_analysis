@@ -33,6 +33,14 @@ The analysis investigates station popularity, weekday ridership patterns, precip
 - **Temperature:** The 19.67–24.18°C temperature range recorded the highest number of rides.
 - **Time of Day:** Afternoon ridership increased substantially between 2018 and 2025.
 
+## Ridership Visualization
+
+The following chart illustrates annual Indego bike-share ridership from 2018 to 2025, categorized by morning, afternoon, evening, and nighttime trips.
+
+![Indego Bike Rides by Part of Day (2018–2025)](indego_part_of_day.png)
+
+Afternoon rides account for the highest ridership in most years, increasing substantially over the study period. Morning and evening ridership also show overall growth, while nighttime rides remain the least common.
+
 ## Dataset
 
 The analysis uses Philadelphia Indego trip records from 2018–2025, station reference data, and historical Philadelphia weather observations.
@@ -45,7 +53,7 @@ To reproduce the analysis, obtain the appropriate datasets and update the notebo
 
 - `indego_analysis.ipynb` — Jupyter notebook containing the data processing, analysis, and visualizations.
 - `Indego_Analysis_Report.pdf` — Two-page ACM-style report summarizing the methodology and findings.
-- `requirements.txt` — Python dependencies required to run the notebook, if provided.
+- `indego_part_of_day.png` — Line chart illustrating annual ridership trends by time of day from 2018 to 2025.
 
 ## Limitations
 
